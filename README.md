@@ -26,6 +26,7 @@
 <code>Интересные факты о проекте:</code>
 - тестовая документация оформлена с использованием аннотаций `Allure`
 - тестовые данные сгенерированы с помощью библиотеки `Faker`
+- применяется конфигурация с использованием техноголии `Owner` для запуска тестов в зависимости от параметров сборки
 - для создания подробных отчетов реализована интеграция с `Allure TestOps`
 - в целях получения информации о статусах тикетов, прилинкованных к тест-кейсам, реализована интеграция  с `Jira`
 - настроена отправка уведомлений в `Telegram` о результатах прохождения автотестов   
@@ -61,12 +62,11 @@
 ## :clipboard: Реализованные проверки
 
 -  <code>Поиск книги</code>
-  -  Поиск книги по названию
-  -  Поиск книги по автору
-  -  Поиск книги по названию издательства
-  -  Поиск книги с использованием предыдущих результатов поиска
-  -  Поиск книги с несуществующим названием
-  -  Проверка логики работы сервиса при пустом поиске  
+    -  Поиск книги по названию
+    -  Поиск книги по автору
+    -  Поиск книги по названию издательства
+    -  Поиск книги с несуществующим названием
+    -  Проверка логики работы сервиса при пустом поиске  
 -  <code>Проверка первых результатов выдачи</code>
 
 <a id="console"></a>
@@ -74,25 +74,15 @@
 ### Локальный запуск тестов
 
 ```
-gradle clean test
+gradle clean test -Denv=local
 ```
 ### Удаленный запуск тестов
 ```
-clean
-ui_test
--Dbrowser=${browser}
--Dbrowser_version=${browser_version}
--Dbrowser_size=${browser_size}
--Dremote_url=${remote_url}
+gradle clean test -Denv=remote
 ```
-### Параметры запуска
-<code>browser</code> – браузер, в котором будут выполняться тесты\
-<code>browser_version</code> – версия браузера\
-<code>browser_size</code> – размер окна браузера, в котором будут выполняться тесты\
-<code>remote_url</code> - адрес удаленного сервера, где будут запускаться тесты
 
 <a id="jenkins"></a>
-## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/)
+## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/)
 Для запуска тестов необходимо нажать кнопку <code>Собрать с параметрами</code>, установить параметры сборки и кликнуть по кнопке <code>Собрать</code>
 
 <p align="center">
@@ -106,7 +96,7 @@ ui_test
 </p>
 
 <a id="allure"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-api-reqres/5/allure/)
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/4/allure/)
 
 Одним из результатов сборки является <code>Allure Report</code>, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
@@ -119,7 +109,7 @@ ui_test
 </p>
 
 <a id="allure-testops"></a> 
-## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2537/dashboards)
+## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2536/dashboards)
 
 Реализованная в проекте интеграция с <code>Allure TestOps</code> позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
 
@@ -136,7 +126,7 @@ ui_test
 </p>
 
 <a id="jira"></a> 
-## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-726)
+## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-727)
 
 <p align="center">
   <img src="media/screenshots/jira.png" alt="jira" width="1000">
