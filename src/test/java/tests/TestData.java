@@ -17,5 +17,5 @@ public class TestData {
             searchPublisherName = "Eksmo Digital",
             headerSearchByPublisher = "Books ",
             bookNameInSection = "The Haunted Hotel: A Mystery of Modern Venice",
-            errorHeader = "Please enter three or more letters to search";
+            errorText = "The search query is too short";
 }

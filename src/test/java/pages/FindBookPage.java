@@ -18,7 +18,7 @@ public class FindBookPage {
             sectionField = $$(".art__name").first().$("a"),
             noResultsHeading = $(".ab-container.b_interested__book"),
             searchButton = $("#go[type=submit]"),
-            errorSearchHeader = $("div.header_search_error"),
+            errorText = $(".err_text"),
             firstBookName = $$(".art-item__name").first().$("a");
 
     @Step("Открыть главную страницу")
@@ -79,8 +79,8 @@ public class FindBookPage {
     }
 
     @Step("Проверить, что отображается ошибка с корректным текстом")
-    public void checkErrorHeader(String value) {
-        errorSearchHeader.shouldHave(text(value));
+    public void checkErrorText(String value) {
+        errorText.shouldHave(text(value));
     }
 
     @Step("Проверить, что книга отображается первой в результатах поиска")

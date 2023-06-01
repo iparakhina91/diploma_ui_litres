@@ -56,4 +56,12 @@ public class FindBookTests extends TestBase {
         steps.enterBookName(fakeBookName);
         steps.checkNoResultsError("By request «" + fakeBookName + "» Nothing found");
     }
+
+    @Test
+    @DisplayName("Проверка логики работы сервиса при пустом запросе")
+    void findBookWithEmptyName() {
+        steps.openMainPage();
+        steps.clickSearchButton();
+        steps.checkErrorText(errorText);
+    }
 }
