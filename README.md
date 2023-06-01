@@ -12,6 +12,7 @@
 * <a href="#console">Запуск тестов из терминала</a>
 * <a href="#jenkins">Запуск тестов в Jenkins</a>
 * <a href="#allure">Отчет о результатах тестирования в Allure Report</a>
+* <a href="#video">Пример прогона теста в Selenoid</a>
 * <a href="#allure-testops">Интеграция с Allure TestOps</a>
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомления в Telegram</a>
@@ -108,6 +109,15 @@ gradle clean test -Denv=remote
   <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
 
+<a id="video"></a> 
+## :film_strip: Пример прогона теста в Selenoid
+
+К каждому тесту в отчете прилагается видео
+
+<p align="center">
+  <img src="media/screenshots/video.gif" width="1000">
+</p>
+
 <a id="allure-testops"></a> 
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2536/dashboards)
 
@@ -141,6 +151,4 @@ gradle clean test -Denv=remote
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
 
-<p align="center">
-  <img src="media/screenshots/video.gif" width="500">
-</p>
+
