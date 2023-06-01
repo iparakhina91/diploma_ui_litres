@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2524e490-569e-4c5c-a7b8-0a915cbc9f72" name="Changes" comment="updated tests">
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Allure_Report.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Allure_TO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/GitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Intelij_IDEA.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/JUnit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/litres_logo_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo/logo_litres.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
+    <list default="true" id="2524e490-569e-4c5c-a7b8-0a915cbc9f72" name="Changes" comment="added media and notifications">
+      <change afterPath="$PROJECT_DIR$/media/screenshots/telegram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +77,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Irina\IdeaProjects\diploma_ui_litres\media\screenshots" />
       <recent name="C:\Users\Irina\IdeaProjects\diploma_ui_litres\media\logo" />
       <recent name="C:\Users\Irina\IdeaProjects\diploma_ui_litres\notifications" />
     </key>
@@ -249,11 +236,33 @@
       <option name="project" value="LOCAL" />
       <updated>1685623666835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added media and notifications">
+      <created>1685655715712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685655715712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added media and notifications">
+      <created>1685655788480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685655788480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added media and notifications">
+      <created>1685656026741</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685656026741</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated tests" />
+    <MESSAGE value="added media and notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media and notifications" />
   </component>
 </project>
