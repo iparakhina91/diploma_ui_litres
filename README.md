@@ -140,3 +140,7 @@ gradle clean test -Denv=remote
 <p align="left">
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
+
+<p align="center">
+  <img src="media/screenshots/video.gif" width="500">
+</p>
