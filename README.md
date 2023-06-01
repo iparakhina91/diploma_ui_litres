@@ -1,7 +1,8 @@
 ﻿# Дипломный проект по автоматизации тестирования UI на сайте [litres.com](https://litres.com)
 
- 
-![litres_logo](media/logo/logo.png)
+<p align="center">
+  <img src="media/logo/logo.png" width="1000">
+</p>
  
 ## :bricks: Содержание 
 
