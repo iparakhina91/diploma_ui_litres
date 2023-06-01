@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "media/logo/litres_logo_t.png",
+    "project": "18-ikorovina91-diploma-ui-litres",
+    "environment": "local",
+    "comment": "UI autotests results",
+    "reportLink": "https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6144665187:AAH3byEU4Cj6VCeNVEKsq5XyRxyLyjk1WsA",
+    "chat": "-1001866145022",
+    "replyTo": ""
+  }
+}
