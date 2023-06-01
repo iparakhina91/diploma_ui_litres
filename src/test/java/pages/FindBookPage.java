@@ -1,11 +1,7 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.selector.ByText;
 import io.qameta.allure.Step;
-import org.junit.jupiter.api.Test;
-import tests.TestData;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
@@ -22,7 +18,7 @@ public class FindBookPage {
             sectionField = $$(".art__name").first().$("a"),
             noResultsHeading = $(".ab-container.b_interested__book"),
             searchButton = $("#go[type=submit]"),
-            errorSearchHeader = $(".header_search_error"),
+            errorSearchHeader = $("div.header_search_error"),
             firstBookName = $$(".art-item__name").first().$("a");
 
     @Step("Открыть главную страницу")
