@@ -74,22 +74,12 @@
 ### Локальный запуск тестов
 
 ```
-gradle clean test
+gradle clean test -Denv=local
 ```
 ### Удаленный запуск тестов
 ```
-clean
-ui_test
--Dbrowser=${browser}
--Dbrowser_version=${browser_version}
--Dbrowser_size=${browser_size}
--Denv='remote'
+gradle clean test -Denv=remote
 ```
-### Параметры запуска
-<code>browser</code> – браузер, в котором будут выполняться тесты\
-<code>browser_version</code> – версия браузера\
-<code>browser_size</code> – размер окна браузера, в котором будут выполняться тесты\
-<code>remote</code> - адрес удаленного сервера, где будут запускаться тесты
 
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/)
