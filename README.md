@@ -62,13 +62,13 @@
 <a id="cases"></a>
 ## :clipboard: Реализованные проверки
 
-### 1. Поиск книги
 -  Поиск книги по названию
 -  Поиск книги по автору
--  Поиск книги по названию издательства
+-  Поиск книги по издательству
+-  Поиск книги в разделе
 -  Поиск книги с несуществующим названием
 -  Проверка логики работы сервиса при пустом поиске  
-### 2. Проверка первых результатов выдачи
+-  Проверка первых результатов выдачи (тест с параметрами с использованием дата-провайдера @CsvFileSource)
 
 <a id="console"></a>
 ## :computer: Запуск тестов из терминала
@@ -84,13 +84,13 @@ gradle clean test -Denv=remote
 
 <a id="jenkins"></a>
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/)
-Для запуска тестов необходимо нажать кнопку <code>Собрать с параметрами</code>, установить параметры сборки и кликнуть по кнопке <code>Собрать</code>
+Для запуска тестов в **Jenkins** необходимо нажать кнопку **Собрать с параметрами**, установить параметры сборки и кликнуть по кнопке **Собрать**
 
 <p align="center">
   <img src="media/screenshots/sborka_jenkins.png" alt="Jenkins" width="1000">
 </p>
 
-После завершения прогона для просмотра будут доступны артефакты запуска и полезные ссылки в целях более детального изучения результатов прохождения тестов.
+После завершения прогона для просмотра будут доступны артефакты запуска и полезные ссылки в целях более детального изучения результатов прохождения тестов
 
 <p align="center">
   <img src="media/screenshots/jenkins_results.png" alt="Jenkins" width="1000">
@@ -99,7 +99,7 @@ gradle clean test -Denv=remote
 <a id="allure"></a>
 ## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/18-ikorovina91-diploma-ui-litres/4/allure/)
 
-Одним из результатов сборки является <code>Allure Report</code>, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
+Одним из результатов сборки является **Allure Report**, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
 <p align="center">
   <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
@@ -112,7 +112,7 @@ gradle clean test -Denv=remote
 <a id="video"></a> 
 ## :film_strip: Пример прогона теста в Selenoid
 
-К каждому тесту в отчете прилагается видео
+К каждому тесту в отчете прилагается **видео**
 
 <p align="center">
   <img src="media/screenshots/video.gif" width="1000">
@@ -121,7 +121,8 @@ gradle clean test -Denv=remote
 <a id="allure-testops"></a> 
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2536/dashboards)
 
-Реализованная в проекте интеграция с <code>Allure TestOps</code> позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
+Реализованная в проекте интеграция с **Allure TestOps** позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. 
+При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
 
 <p align="center">
   <img src="media/screenshots/allure_dashboard.png" alt="allure-testops" width="1000">
@@ -138,7 +139,7 @@ gradle clean test -Denv=remote
 <a id="jira"></a> 
 ## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-727)
 
-Реализованная интеграция с <code>Jira</code> позволяет отслеживать статус заведенных задач и дефектов в багтрекере 
+Реализованная интеграция с **Jira** позволяет отслеживать статус заведенных задач и дефектов в багтрекере 
 
 <p align="center">
   <img src="media/screenshots/jira.png" alt="jira" width="1000">
@@ -147,7 +148,7 @@ gradle clean test -Denv=remote
 <a id="telegram"></a> 
 ## <img src="media/logo/Telegram.svg" width="25" height="25"/></a> Уведомления в Telegram
 
-После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в <code>Telegram</code> о результатах прохождения тестов
+После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в **Telegram** о результатах прохождения тестов
 
 <p align="left">
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
