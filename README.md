@@ -12,7 +12,7 @@
 * <a href="#console">Запуск тестов из терминала</a>
 * <a href="#jenkins">Запуск тестов в Jenkins</a>
 * <a href="#allure">Отчет о результатах тестирования в Allure Report</a>
-* <a href="#video">Пример прогона теста в Selenoid</a>
+* <a href="#attach">Аттачменты в отчете</a>
 * <a href="#allure-testops">Интеграция с Allure TestOps</a>
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомления в Telegram</a>
@@ -111,10 +111,12 @@ gradle clean test -Denv=remote
   <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
 
-<a id="video"></a> 
-## :film_strip: Пример прогона теста в Selenoid
+<a id="attach"></a> 
+## :bookmark: Аттачменты в отчете
 
-К каждому тесту в отчете прилагается **видео**
+К каждому тесту в отчете прилагаются **аттачменты**: скриншот, код страницы, логи браузера и видео.
+
+<sub>Пример прогона видео с использованием Selenoid:</sub>
 
 <p align="center">
   <img src="media/screenshots/video.gif" width="1000">
