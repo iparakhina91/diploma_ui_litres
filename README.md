@@ -49,8 +49,7 @@
 <a href="https://www.jira.com/"><img src="media\logo\Jira.svg" width="50" height="50" alt="Jira" title="Jira"></a>
 </p>
 
-Автотесты в данном проекте написаны на Java с использованием фреймворка [Selenide](https://selenide.org/)\
-<code>Gradle</code> — инструмент автоматизации сборки\
+<code>Gradle</code> — для автоматизации сборки\
 <code>JUnit5</code> — для выполнения тестов\
 <code>Selenoid</code> — для удаленного запуска браузера в Docker контейнерах\
 <code>REST Assured</code> — для тестирования REST-API сервисов\
