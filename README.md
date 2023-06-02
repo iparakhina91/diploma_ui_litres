@@ -138,6 +138,8 @@ gradle clean test -Denv=remote
 <a id="jira"></a> 
 ## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-727)
 
+Реализованная интеграция с <code>Jira</code> позволяет отслеживать статус заведенных задач и дефектов в багтрекере 
+
 <p align="center">
   <img src="media/screenshots/jira.png" alt="jira" width="1000">
 </p>
