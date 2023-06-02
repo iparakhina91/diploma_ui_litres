@@ -116,11 +116,10 @@ gradle clean test -Denv=remote
 
 К каждому тесту в отчете прилагаются **аттачменты**: скриншот, код страницы, логи браузера и видео.
 
-<sub>Пример прогона видео с использованием Selenoid:</sub>
-
 <p align="center">
   <img src="media/screenshots/video.gif" width="1000">
 </p>
+<sub>Пример прогона видео с использованием Selenoid</sub>
 
 <a id="allure-testops"></a> 
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2536/dashboards)
