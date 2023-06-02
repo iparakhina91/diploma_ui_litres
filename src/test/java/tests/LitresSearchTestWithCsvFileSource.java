@@ -7,7 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import pages.FindBookPage;
 
-public class LitresSearchTestWithCsvSource extends TestBase {
+public class LitresSearchTestWithCsvFileSource extends TestBase {
 
     FindBookPage steps = new FindBookPage();
 
