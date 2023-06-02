@@ -1,4 +1,4 @@
-﻿# Дипломный проект по автоматизации тестирования UI на сайте [litres.com](https://litres.com)
+﻿# Дипломный проект по автоматизации тестирования пользовательского интерфейса на сайте [litres.com](https://litres.com)
 
 <p align="center">
   <img src="media/logo/logo.png" width="1000">
