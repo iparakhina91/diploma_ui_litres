@@ -103,10 +103,12 @@ gradle clean test -Denv=remote
 
 Одним из результатов сборки является **Allure Report**, в котором помимо просмотра итогового отчета на странице теста можно ознакомиться с пошаговым выполнением кода
 
+<sub>Итоговый отчет</sub>
 <p align="center">
   <img src="media/screenshots/allure_overview.png" alt="allure" width="1000">
 </p>
 
+<sub>Результаты прохождения в разрезе тестов</sub>
 <p align="center">
   <img src="media/screenshots/allure.png" alt="allure" width="1000">
 </p>
@@ -116,10 +118,10 @@ gradle clean test -Denv=remote
 
 К каждому тесту в отчете прилагаются **аттачменты**: скриншот, код страницы, логи браузера и видео.
 
+<sub>Пример видео прохождения теста с использованием Selenoid</sub>
 <p align="center">
   <img src="media/screenshots/video.gif" width="1000">
 </p>
-<sub>Пример прогона видео с использованием Selenoid</sub>
 
 <a id="allure-testops"></a> 
 ## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2536/dashboards)
@@ -127,14 +129,17 @@ gradle clean test -Denv=remote
 Реализованная в проекте интеграция с **Allure TestOps** позволяет не только ознакомиться с отчетом о результатах прохождения тестов, но и запускать автотесты и наблюдать за результатом их выполнения в режиме реального времени. 
 При этом, возможности Allure TestOps позволяют выбирать, какие именно тесты запускать. 
 
+<sub>Dashboard</sub>
 <p align="center">
   <img src="media/screenshots/allure_dashboard.png" alt="allure-testops" width="1000">
 </p>
 
+<sub>Launches</sub>
 <p align="center">
   <img src="media/screenshots/allureOPS_launches.png" alt="allure-testops" width="1000">
 </p>
 
+<sub>Запуск теста</sub>
 <p align="center">
   <img src="media/screenshots/run_tests_allure.png" alt="allure-testops" width="1000">
 </p>
@@ -144,6 +149,7 @@ gradle clean test -Denv=remote
 
 Реализованная интеграция с **Jira** позволяет отслеживать статус заведенных задач и дефектов в багтрекере 
 
+<sub>Пример задачи, прилинкованной к тест-кейсам и прогону</sub>
 <p align="center">
   <img src="media/screenshots/jira.png" alt="jira" width="1000">
 </p>
@@ -153,6 +159,7 @@ gradle clean test -Denv=remote
 
 После завершения прогона в Jenkins с помощью бота осуществляется отправка уведомления в **Telegram** о результатах прохождения тестов
 
+<sub>Пример уведомления</sub>
 <p align="left">
   <img src="media/screenshots/telegram.png" alt="telegram" width="500">
 </p>
