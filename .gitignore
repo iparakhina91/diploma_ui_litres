@@ -42,3 +42,4 @@ target/
 /gradlew.bat
 !gradle/wrapper/gradle-wrapper.jar
 /settings.gradle
+.auth.properties
