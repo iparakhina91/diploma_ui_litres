@@ -1,12 +1,8 @@
 package tests;
 
-import utils.FakeUtils;
-
 import static utils.FakeUtils.getFakeBookName;
 
 public class TestData {
-
-    FakeUtils fakeUserUtils = new FakeUtils();
 
     public static String
             fakeBookName = getFakeBookName(),
