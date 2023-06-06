@@ -1,4 +1,4 @@
-package tests;https://qa.guru/pl/teach/control/lesson/view?id=264017959&editMode=0
+package tests;
 
 import static utils.FakeUtils.getFakeBookName;
 
