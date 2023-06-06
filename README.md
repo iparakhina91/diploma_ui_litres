@@ -139,7 +139,7 @@ gradle clean test -Denv=remote
   <img src="media/screenshots/allureOPS_launches.png" alt="allure-testops" width="1000">
 </p>
 
-<sub>Возможность вапуска теста из Allure TestOps</sub>
+<sub>Возможность запуска теста из Allure TestOps</sub>
 <p align="center">
   <img src="media/screenshots/run_tests_allure.png" alt="allure-testops" width="1000">
 </p>
